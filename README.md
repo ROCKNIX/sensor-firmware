@@ -1,5 +1,9 @@
 ### Structure
 
-`devices/{CHIP}/{MODEL}`
-
-If the model doesn't have a folder, `devices/{CHIP}/generic` is used
+```
+devices/
+    {CHIP NAME}/
+        overlays/
+            {DEVICE NAME} <-- device specific data
+        base/
+```
